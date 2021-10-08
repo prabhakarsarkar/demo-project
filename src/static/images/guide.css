@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #191b1f;
+    margin: 0;
+    padding: 0;
+    font-family: October Condensed;
+    scroll-behavior: smooth;
+}
+
+/* ----css--- */
+
+.streamers_div_work{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 15%;
+    padding: 3rem 5rem;
+    color: rgba(228, 228, 228, 0.898);
+}
+.streamers_div_work h3{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+
+}
+.streamers_div_work p{
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.streamers_div_work img{
+    width: calc(100% - 30%);
+}
